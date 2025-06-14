@@ -1,0 +1,113 @@
+
+ html{
+  background-color: var(--color-background-main);
+ }
+
+ body{
+    background-color: var(--color-background-articule);
+    width: 43%;
+    height: 100%;
+    border-radius: 1.562rem;
+    padding: 2.187rem;
+    margin: 7.5rem auto;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-young) !important;
+
+ }
+
+ .main-preparation .title,
+ .main-preparation .list > li::marker{
+    color: var(--color-rose-800)
+ }
+
+ h2,
+ .section-ingredients .list > li::marker,
+ .section-instructions .list > li::marker,
+ table .value{
+   color: var(--color-stone-800);
+ }
+
+.main-preparation{
+  background-color: var(--color-background-second);
+ }
+
+
+ h1{
+  font-size: clamp(0.31rem,5vw,2.5rem) ;
+  margin: 1rem 0;
+  padding: 0;
+  font-weight: 500;
+ }
+
+ h2{
+   font-size: clamp(0.31rem,5vw,2rem) ;
+   font-weight: 500;
+   margin: 0.5rem 0;
+ }
+ 
+ .main{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .main .main-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+ }
+
+ .main .main-image img{
+   max-width: 100%;
+   max-height: 100%;
+   margin: 0;
+   padding: 0;
+   object-fit:contain;
+   object-position: center;
+   border-radius: 0.75rem;
+
+ }
+
+ .main-preparation{
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  border-radius: 0.937rem;
+ }
+ .main-preparation .title{
+  font-size: clamp(0.31rem,5vw,1.25rem);
+  font-weight: 700;
+ }
+
+
+  .list{
+    padding: 0;
+    margin: 0.937rem 0.937rem 40px 0.937rem;
+  }
+
+ .list .item{
+   margin-left: 0.5rem;
+
+ }
+
+ .list .item p{
+   margin-left: 0.625rem;
+
+ }
+
+  p{
+    font-size: clamp(0.31rem,5vw,0.875rem);
+    font-family: var(--font-family-outfit) !important; 
+  }
+
+ table {
+    border-collapse: collapse; 
+    width: 100%;              
+    text-align: justify;
+  }
+
+  table td {
+    border-bottom: 1px solid var(--color-stone-600);
+    padding: 0.5rem;
+  }
+
+
