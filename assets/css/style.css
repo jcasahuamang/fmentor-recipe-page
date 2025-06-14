@@ -28,11 +28,6 @@
    color: var(--color-stone-800);
  }
 
-.main-preparation{
-  background-color: var(--color-background-second);
- }
-
-
  h1{
   font-size: clamp(0.31rem,5vw,2.5rem) ;
   margin: 1rem 0;
@@ -72,6 +67,7 @@
  .main-preparation{
   padding: 0.5rem 0 0.5rem 1.25rem;
   border-radius: 0.937rem;
+  background-color: var(--color-background-second);
  }
  .main-preparation .title{
   font-size: clamp(0.31rem,5vw,1.25rem);
@@ -81,7 +77,7 @@
 
   .list{
     padding: 0;
-    margin: 0.937rem 0.937rem 40px 0.937rem;
+    margin: 0.937rem 0.937rem 2.5rem 0.937rem;
   }
 
  .list .item{
